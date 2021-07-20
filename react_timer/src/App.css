@@ -1,17 +1,37 @@
 .App {
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    display: grid;
+    align-content: center;
     text-align: center;
-    background-color: #282c34;
+    justify-items: center;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
 }
 
-.clock {
-    background-color: #282c34;
-    min-height: 100vh;
-    align-items: center;
+h6 {
+    margin: 3vw 20vw 3vw 20vw;
+    font-size: 1rem;
+    color: antiquewhite;
+}
+
+.container {
     display: flex;
-    justify-content: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #373f51;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.btn a {
+    color: #f56476;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
 }

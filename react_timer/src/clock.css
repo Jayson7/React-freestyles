@@ -1,5 +1,10 @@
 .Time {
     font-family: courier, monospace;
-    color: white;
-    font-size: 15vw;
+    color: black;
+    font-size: 8vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
 }
